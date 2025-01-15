@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio HTML CSS Javascript | Lucas Vauclin</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#contact" class="logo">Portfolio.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Accueil</a>
+            <a href="#about">À propos de Moi</a>
+            <a href="#education">Parcours</a>
+            <a href="#skills">Compétences</a>
+            <a href="#contact">Mes Projets</a>
+
+
+                  <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <section class="home show-animate js-container" id="home">
+        <div class="congrats">
+            <div class="checkmark-circle">
+                <div class="background"></div>
+                <div class="checkmark draw"></div>
+            </div>
+            <h1>Félicitations!</h1>
+            <p>Vous avez gagnez!!!</p>
+
+            <button class="submit-btn" id="endanim" type="submit"
+                onclick="alert('Vous avez identifié le candidat idéal pour votre entreprise\!!!\😜😜😜');">Continuer</button>
+        </div>
+        <div class="home-content">
+
+            <h1>Hi, I'm <span>Lucas Vauclin</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>-Développeur web-</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Bonjour, je m'appelle Lucas Vauclin, j'ai 18 ans et je suis étudiant en systèmes numériques, spécialisé en gestion des risques pour 
+               la cybersécurité. Passionné par l'informatique, je développe des projets multiplateformes en utilisant des langages comme HTML, CSS, 
+               Python et JavaScript, que j'exploite notamment pour ajouter des animations aux sites. Toujours axé sur la performance, j'optimise mes 
+               créations en corrigeant rapidement les erreurs de code pour garantir un fonctionnement fluide et efficace.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="CV Lucas Vauclin 2024 V3.pdf" target="_blank" class="btn">Voir mon CV</a>
+
+            
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://github.com/Yakolacoco" target="_blank"><i class='bx bxl-github'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">À propos <span>de Moi</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="images/5EFEEA18-4262-4594-A8CE-E0994A35AA10_1_201_a.jpeg" alt="images Alex développeur web">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Développeur web!<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Etudiant en systèmes numériques avec une spécialisation en gestion des risques pour la cybersécurité, je suis passionné par le développement informatique 
+                et web. Mes réalisations, développées en HTML, CSS, Python et JavaScript, reflètent ma créativité et mon engagement, notamment dans la conception d’interfaces 
+                interactives et animées. En dehors du développement, j’aime découvrir de nouvelles technologies, approfondir mes connaissances en cybersécurité et relever 
+                des défis techniques. Toujours axé sur l’efficacité, je veille à corriger rapidement les erreurs de code pour offrir des solutions fiables et performantes.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+        </div>
+    </section>
+
+   <section class="education" id="education">
+        <h2 class="heading">Diplômes et <span>Expériences professionnelles</span><span class="animate scroll"
+                style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Diplômes:<span class="animate scroll" style="--i:2;"></span></h3>
+                    
+                    <div class="education-box">
+                    <div class="education-content">
+                    <div class="content">
+                    <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
+                        h3>Brevet du Collège</h3>
+                        <p>J'ai obtenu le Brevet des collèges avec mention Bien au Collège Les Chènevreux à Nanterre (92).</p>
+                    </div>
+                        </div>
+                    
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2024 - 2025</div>
+                                <h3>Bac Pro SN</h3>
+                                <p>En attente des examens.</p>
+                            </div>
+                        </div>
+                    
+                        <span class="animate scroll" style="--i:3;"></span>
+                    
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2025 - 2026</div>
+                                <h3>Recherche École Supérieure</h3>
+                                <p>Je suis à la recherche d'une école supérieure dans le domaine de l'informatique.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Expériences professionnelles:<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2023 - 2024</div>
+                            <h3>Stage dans le helpdesk a l'Économat des armées</h3>
+                            <p>J'ai effectué un stage au pôle helpdesk où j'ai aidé à résoudre les problèmes informatiques du personnel.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2023 - 2024</div>
+                            <h3>Stage Administateur réseaux a  l'Économat des armée</h3>
+                            <p>J'ai effectué un stage au pôle Administrateur réseaux où j'ai pu créer des scripts et configurer des logiciels.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2024 - 2025</div>
+                            <h3>Stage technicien datacenter a DC2SCLALE</h3>
+                            <p>J'ai travaillé dans un datacenter au pôle technicien datacenter pour l'installation des serveurs et de l'infrastructure.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Mes <span>Compétences</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML + CSS <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>45%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>PHP <span>15%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Compétences professionnelles:<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Développement web <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Frontend développement <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Backend développement <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Gestion de Projet et Collaboration <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Mes <span>Projets</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>jeux-mot-du-jour</h4>
+                    <p>HTML,CSS + JS. Un petit jeux que j'ai fait.</p>
+                    <a href="https://yakolacoco.github.io/jeux-mot-du-jour/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Annimation de pluie</h4>
+                    <p>HTML + CSS. Un petit projet d'annimation que j'ai pu faire</p>
+                    <a href="https://github.com/Yakolacoco/animation-pluie" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>generateur-mot-de-passe</h4>
+                    <p>Python. c'est un petit projet pour mon debut en Python.</p>
+                    <a href="https://github.com/Yakolacoco/generateur-mot-de-passe" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>ASCII-art</h4>
+                    <p>PYTHON. J'ai pu créer ce programme qui reproduit une image en ASCII art.</p>
+                    <a href="https://github.com/Yakolacoco/ASCII-art" target="_blank"><i class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>jeux-geometrie-dash</h4>
+                    <p>HTML,CSS + JS. j'ai pu faire un mini jeux géometridash.</p>
+                    <a href="https://github.com/Yakolacoco/jeux-geometrie-dash" target="_blank"><i class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>mon 1er portfolio</h4>
+                    <p>HTML,CSS + JS. c'est mon tout 1er portfolio que j'ai pu faire il a des petite erreurs.</p>
+                    <a href="https://yakolacoco.github.io/portfolio/" target="_blank"><i class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+        </div>
+    </section>
+
+ 
+    <footer class="footer">
+        <div class="footer-text">
+           
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+
+        </div>
+    </footer>
+
+    <img src="images/image_2025-01-01_213215480-removebg-preview.png" class="photo">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
